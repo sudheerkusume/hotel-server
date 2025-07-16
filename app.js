@@ -9,14 +9,14 @@ const RoomService = require('./Model/RoomServiceModel');
 const Viewroom = require("./Model/ViewroomModel");
 const Enquiries = require("./Model/EnquiryModel");
 const { default: mongoose } = require("mongoose");
-const CustomerModel = require("./model/UserModel")
-const FuserModel = require("./model/FuserModel")
+const CustomerModel = require("./Model/UserModel")
+const FuserModel = require("./Model/FuserModel")
 const jwt = require("jsonwebtoken")
 const tok = require("jsonwebtoken")
-const AdminModel = require("./model/AdminModel");
+const AdminModel = require("./Model/AdminModel");
 const adminAuth = require("./adminAuth")
 const Order = require("./Model/OrderModel");
-const UserModel = require("./model/UserModel");
+const UserModel = require("./Model/UserModel");
 const routeAuth1 = require('./routeAuth1')
 
 app.use(cors())
